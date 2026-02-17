@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Submit a Ticket - QuickFix</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="nav">
+  <div class="container nav-inner">
+   <div class="brand"> 
+    <div class="logo"></div>
+    <div>QuickFix Help Desk</div>
+   </div>
+ 
+   <div class="nav-links">
+    <a class="pill" href="/index.html">Home</a>
+    <a class="pill" href="/contact.html">Submit a Ticket</a>
+    <a class="pill" href="/about.html">Services</a>
+  </div></div>
+ </div>
+</div>
+
+ <div class="hero">
+  <div class="container">
+   <div class="hero-card">
+    <h1>Submit a support ticket</h1>
+    <p class="sub">Describe the issue and we'll "log" the request.</p>
+   </div>
+  </div>
+ </div>
+
+ <div class="container">
+<form id="ticketForm" class="card">
+ <label for="name">Your name</label>
+ <input id="name" type="text" placeholder="e.g., Rigo">
+
+<label for="issueText">Describe the problem</label>
+<textarea id="issueText" rows="6" placeholder="Device model? What Changed? Any error messages?"></textarea>
+
+ <button type="button"onclick="fakeSubmit()">Submit ticket</button>
+ <div id="notice" class="notice" style="display:none;"></div>
+ </form>
+</div>
+
+<div class="footer">
+ QuickFix Help Desk . We respond fast
+</div>
+
+ <script src="script.js"></script>
+</body>
+<html>
+
+
