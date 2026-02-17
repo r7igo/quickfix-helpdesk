@@ -427,3 +427,68 @@ input, textarea, select, button{
   grid-template-columns: repeat(2, 1fr);
  }
 }
+
+
+@media (max-width: 700px) {
+
+.nav .nav-inner{
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 12px;
+ padding: 12px 16px;
+}
+
+.brand{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.nav-links{
+ width: 100%;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+
+.hero{ 
+ padding: 28px 16px;
+}
+
+.container{
+ padding-left: 16px;
+ padding-right: 16px;
+}
+
+.hero-grid{
+ grid-template-columns: 1fr !important;
+ gap: 14px;
+ justify-items: center;
+}
+
+.hero-card{
+ width: 100%;
+ max-width: 560px;
+}
+
+.hero-card h1{
+ font-size: clamp(28px, 7vw, 40px);
+ line-height: 1.05;
+ max-width: none;
+}
+
+.badges, .pills, chips{
+ flex-wrap: wrap;
+ gap: 8px;
+}
+
+.grid{
+ grid-template-columns: 1fr;
+ gap: 12px;
+}
+
+.services-grid .card{
+ width: 100%;
+ min-width: 0;
+ }
+}
